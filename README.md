@@ -16,7 +16,7 @@ gnome-terminal -x bash -c "./ngrok http 80; exec bash"
 to this:
 ```
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
-tar zxvf  ./ngrok-v3-stable-linux-amd64.tgz
+tar zxvf ./ngrok-v3-stable-linux-amd64.tgz
 chmod +x *
 chmod 777 *
 gnome-terminal -x bash -c "./ngrok config add-authtoken <your_token_here>"
