@@ -1,4 +1,4 @@
-# UberEats-Phishing - Fixed
+# UberEats-Phishing - Fixed (Kali linux)
 This is UberEats-Phishing Tool with Bypass OTP ! UberEats
 
 # OTP Bypass Instructions
